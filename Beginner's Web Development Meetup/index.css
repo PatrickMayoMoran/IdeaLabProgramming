@@ -1,21 +1,33 @@
 /* CSS HEX 
   COLOR PALETTE
-  --rich-black-fogra-29: #031926ff;
-  --seal-brown: #6b2b06ff;
-  --polished-pine: #4ea699ff;
-  --straw: #d8dc6aff;
-  --burnt-sienna: #e76f51ff;
+  --rich-black-fogra-29: #031926ff; Dark Navy Blue
+  --seal-brown: #6b2b06ff;          Dark Brown
+  --polished-pine: #4ea699ff;       Cool Green
+  --straw: #d8dc6aff;               Light Brown
+  --burnt-sienna: #e76f51ff;        Brown
+
+  Text:
+  --straw: #d8dc6aff;               LightBrown
+  #F5FFFA rgb(245,255,250)          Mint Cream
+
+  Background Colors:
+  --rich-black-fogra-29: #031926ff; Dark Navy Blue
+  --seal-brown: #6b2b06ff;          Dark Brown
+  --polished-pine: #4ea699ff;       Cool Green
+
+  ?
+  --burnt-sienna: #e76f51ff;        Brown
 */
 
 /* Global styles
 -----------------------------*/
 
 body {
-  background-color: burlywood; /* #DEB887, rgb(222,184,135) */
+  color: #d8dc6aff; /*  --straw: #d8dc6aff */
 }
-
+  
 p {
-  color: saddlebrown; /* #8B4513, rgb(139,69,19) */
+  color: mintcream; /* #F5FFFA rgb(245,255,250)  */
 }
 
 img.resize {
@@ -23,9 +35,23 @@ img.resize {
     max-height: 25%;
   }
 
-/* Global styles
+/* Website header
 -----------------------------*/
+header {
+  background-color: #031926ff;
+}
 
+/* Coffee Details
+-----------------------------*/
+.details {
+  background-color: #6b2b06ff;
+}
+
+/* Drinking Now
+-----------------------------*/
+.drinking-now {
+  background-color: #4ea699ff ;
+}
 
 /* CSS HSL */
 --rich-black-fogra-29: hsla(202, 85%, 8%, 1);
