@@ -56,7 +56,7 @@ header {
   background-color: #031926ff;
 }
 
-figure {
+header div figure {
   max-width: 25%;
   max-height: 25%;
 }
@@ -70,7 +70,7 @@ figure img:hover {
 background: gray;
 }
 
-header figcaption {
+figcaption {
   font-style: italic;
   background-color: mintcream;
   color: #031926ff;
