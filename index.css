@@ -38,6 +38,27 @@ img.resize {
 img:hover {
   background: gray;
 }
+
+a:link {
+  color: mintcream;
+}
+
+a:visited {
+  color: #e76f51ff;
+}
+
+a:focus {
+  outline: 1px solid black;
+}
+
+a:hover {
+  color: #4ea699ff;
+}
+
+a:active {
+  color: purple;
+}
+
 /* Website header
 -----------------------------*/
 header {
@@ -48,6 +69,10 @@ header {
 -----------------------------*/
 .details {
   background-color: #6b2b06ff;
+}
+
+.coffee-type-link {
+  cursor: help;
 }
 
 /* Drinking Now
