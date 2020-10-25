@@ -30,15 +30,6 @@ p {
   color: mintcream; /* #F5FFFA rgb(245,255,250)  */
 }
 
-img.resize {
-    max-width: 25%;
-    max-height: 25%;
-  }
-
-img:hover {
-  background: gray;
-}
-
 a:link {
   color: mintcream;
 }
@@ -52,7 +43,7 @@ a:focus {
 }
 
 a:hover {
-  color: #4ea699ff;
+  text-decoration: none;
 }
 
 a:active {
@@ -65,12 +56,25 @@ header {
   background-color: #031926ff;
 }
 
+figure {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+figure img.resize {
+  max-width: 100%;
+  max-height: 25%;
+}
+
+figure img:hover {
+background: gray;
+}
+
 header figcaption {
   font-style: italic;
   background-color: mintcream;
   color: #031926ff;
   text-align: center;
-  text-decoration: none;
 }
 
 /* Coffee Details
