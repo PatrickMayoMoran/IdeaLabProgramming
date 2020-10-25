@@ -65,6 +65,14 @@ header {
   background-color: #031926ff;
 }
 
+header figcaption {
+  font-style: italic;
+  background-color: mintcream;
+  color: #031926ff;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* Coffee Details
 -----------------------------*/
 .details {
