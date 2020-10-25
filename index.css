@@ -35,6 +35,9 @@ img.resize {
     max-height: 25%;
   }
 
+img:hover {
+  background: gray;
+}
 /* Website header
 -----------------------------*/
 header {
