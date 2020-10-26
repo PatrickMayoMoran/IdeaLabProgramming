@@ -21,6 +21,13 @@
 
 /* Global styles
 -----------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
   color: #d8dc6aff; /*  --straw: #d8dc6aff */
