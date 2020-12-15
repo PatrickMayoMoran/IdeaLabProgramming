@@ -75,14 +75,14 @@ header {
 }
 
 header div figure {
-  max-width: 25%;
-  max-height: 25%;
+  max-width: 50%;
+  max-height: 50%;
   margin: 0 auto;
 }
 
 figure img.resize {
   max-width: 100%;
-  max-height: 25%;
+  max-height: 100%;
 }
 
 figure img:hover {
