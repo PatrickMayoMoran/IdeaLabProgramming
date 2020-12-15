@@ -5,16 +5,13 @@
   --polished-pine: #4ea699ff;       Cool Green
   --straw: #d8dc6aff;               Light Brown
   --burnt-sienna: #e76f51ff;        Brown
-
   Text:
   --straw: #d8dc6aff;               LightBrown
   #F5FFFA rgb(245,255,250)          Mint Cream
-
   Background Colors:
   --rich-black-fogra-29: #031926ff; Dark Navy Blue
   --seal-brown: #6b2b06ff;          Dark Brown
   --polished-pine: #4ea699ff;       Cool Green
-
   ?
   --burnt-sienna: #e76f51ff;        Brown
 */
@@ -98,6 +95,10 @@ figcaption {
   color: #031926ff;
   text-align: center;
   text-decoration: none;
+}
+
+audio {
+  width: 100%;
 }
 
 /* Coffee Details
